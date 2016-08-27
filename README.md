@@ -6,8 +6,8 @@
 # usage:
 
 ```javascript
-  import TimePeriodHandler from 'TimePeriodHandler.js'
-  var periodHandler = new TimePeriodHandler('day', this)
+  import DatePeriodHandler from 'DatePeriodHandler.js'
+  var periodHandler = new DatePeriodHandler('day', this)
   periodHandler.next();
   queryData(periodHandler.getBeginTime(), periodHandler.getEndTime())
 ```
